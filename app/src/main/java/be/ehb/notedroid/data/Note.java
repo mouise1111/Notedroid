@@ -8,7 +8,7 @@ public class Note {
     private String title, content;
     private Date date, modifiedDate;
 
-    private Note(String title, String content, Date date) {
+    public Note(String title, String content, Date date) {
         this.title = title;
         this.content = content;
         this.date = date;
